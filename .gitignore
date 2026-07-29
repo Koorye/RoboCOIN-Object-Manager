@@ -1,0 +1,37 @@
+# Downloaded datasets (large)
+RoboCOIN_datasets/
+
+# Output directories
+objects/crops/
+objects/manifests/
+objects/embeddings/
+objects/library/
+objects/attributes.jsonl
+
+# Checkpoints & model weights
+*.pth
+*.pt
+*.safetensors
+checkpoints/
+sam3_weights/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+/tmp/
